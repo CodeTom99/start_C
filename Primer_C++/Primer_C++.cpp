@@ -23,8 +23,6 @@ int main()
 	{
 		elem *= 3;
 	}
-	list<string> c;
-	list<string>::iterator ite;
 	return 0;
 }
   
