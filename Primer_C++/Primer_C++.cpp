@@ -25,7 +25,6 @@ int main()
 	}
 	list<string> c;
 	list<string>::iterator ite;
-	
 	return 0;
 }
   
