@@ -4,8 +4,10 @@
 #include <algorithm>
 #include <functional>
 using namespace std;
-//这里以后会更新一些stl里的东西(对stl进行详解剖析)
+//STL六大部件
+//容器 分配器 算法 迭代器 适配器 仿函数 
+//算法：模板函数 例如 push find sort pop
 int main()
-{
+{ 
 	return 0;
 }
