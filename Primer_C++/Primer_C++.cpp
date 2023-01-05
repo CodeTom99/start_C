@@ -12,7 +12,7 @@ using namespace std;
 //容器百万级别
 
 
-
+//STL
 //利用function template实现自动推导
 template <class I,class T>
 void func_impl(I iter, T t)
