@@ -23,7 +23,7 @@ template<class I>
 inline
 void func(I iter)
 {
-	func_impl(iter, *iter);
+	 func_impl(iter, *iter);
 }
 int main()
 {
