@@ -6,4 +6,4 @@ int main()
 {
 	cout << '\115' << '\n';
 	return 0;
-}b
+}
