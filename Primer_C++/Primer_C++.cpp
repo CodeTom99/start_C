@@ -15,8 +15,10 @@ int main()
 	shared_ptr<string> p4 = make_shared<string>(10, '9');
 	shared_ptr<int> p5 = make_shared<int>();
 	auto p6 = make_shared<vector<string>>();
-	p6->push_back("666");
-	auto it = p6->begin();
-	cout << *it << endl;
+	auto p = make_shared<int>(42);
+	auto q(p);
+	auto r = make_shared<int>(42);
+	r = q;
+
 	return 0;
 }
